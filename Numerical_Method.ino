@@ -10,7 +10,7 @@ const int trigPin = 25;  // Changed to safer pins
 const int echoPin = 27;
 
 float lumenThreshold = 20.0;
-float distanceThreshold = 150.0;
+float distanceThreshold = 100.0;
 
 WebServer server(80);
 
